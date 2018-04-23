@@ -1,0 +1,96 @@
+				
+				#navbar {
+					overflow: hidden;
+					background-color: #333;
+					position: fixed;
+					top: 0;
+					width: 100%;
+					z-index: 1;
+
+				}
+
+				#navbar a {
+					float: left;
+					display: block;
+					color: white;
+					text-align: center;
+					padding:20px 26px;
+					text-decoration: none;
+					font-size: 14px;
+					font-family: Arial;
+				}
+
+				#navbar a:hover {
+					background-color: white;
+					color: #333;
+				}
+
+				#navbar a.active {
+					background-color: tomato;
+				}
+
+				* {
+					box-sizing: border-box;
+				}
+
+				.header {
+					text-align: center;
+					padding: 32px;
+					margin-top: 15px;
+
+				}
+
+				.flex-container {
+					  padding: 0;
+					  margin: 0;
+					  list-style: none;
+					  
+					  display: -webkit-box;
+					  display: -moz-box;
+					  display: -ms-flexbox;
+					  display: -webkit-flex;
+					  display: flex;
+					  
+					  -webkit-flex-flow: row wrap;
+					  justify-content: space-around;
+				}
+
+				.flex-item {
+					  background: tomato;
+					  padding: 10px;
+					  width: 400px;
+					  height: 300px;
+					  margin-top: 20px;
+					  
+					  line-height: 150px;
+					  color: white;
+					  font-weight: bold;
+					  font-size: 3em;
+					  text-align: center;
+				}
+
+				.text {
+					font-size: 18px;
+					text-align: center;
+					padding: 12px;
+				}
+				.button {
+				    background-color: tomato;
+				    border: none;
+				    color: white;
+				    padding: 15px 25px;
+				    text-align: center;
+				    font-size: 16px;
+				    cursor: pointer;
+				}
+
+				.button:hover {
+				    background-color: #f46d31;
+				    color: #333;
+				}
+
+			a { 
+				color: inherit; 
+			}
+
+			
